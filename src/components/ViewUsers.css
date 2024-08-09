@@ -1,0 +1,53 @@
+.view-users {
+    padding: 20px;
+  }
+  
+  .view-users h2 {
+    color: #007bff;
+  }
+  
+  .view-users ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .view-users ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .view-users ul li span {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .view-users button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-users button:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-users button.delete {
+    background-color: #dc3545;
+  }
+  
+  .view-users button.delete:hover {
+    background-color: #c82333;
+  }
+  
